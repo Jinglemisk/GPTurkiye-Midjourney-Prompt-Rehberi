@@ -160,7 +160,7 @@ Midjourney’in test sürümlerine başvurarak fotoğrafı tekrar yorumlar.
   <img src="/Görseller/cozunurluk-arayuzu-3.png" alt="Alt text" width="350">
 </p>
 
-Remaster’ladığımız görsel aslında ana içerik olarak yukarıdaki yorumlamalarla çok benzeşiyor. Fakat “içerik” diye yorumladıklarımız, yani gemi, balıkçılar, nehir, çöl havası gibi nesnelere farklı bir dokunuş getiriliyor.
+Remaster’ladığımız görsel aslında ana içerik olarak yukarıdaki yorumlamalarla çok benzeşiyor. Fakat “içerik” diye yorumladıklarımız, yani gemi, balıkçılar, nehir, çöl havası gibi nesnelere farklı bir dokunuş getiriliyor. Remaster bize tek bir sonuç verir (ve bir tam sorgu hakkı kullanır)
 
 
 ## Sonuçların Karşılaştırılması
