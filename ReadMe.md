@@ -1,69 +1,101 @@
 # GPTürkiye Midjourney Prompt Rehberi
 
 
-https://linktr.ee/gpturkiye
+[Topluluğumuza buradan ulaşabilirsiniz!](https://linktr.ee/gpturkiye)
 
 
 ## Giriş
 
 Yazdığınız metni görsele dönüştüren yapay zeka Midjourney için bir başlangıç rehberi olmayı hedefleyen bir yazı hazırladık. Karşılığında yazılı ya da görsel bir cevap aldığımız ve yapay zekayı yönlendirmeye çalıştığımız girdiler, ya da “prompt”lar, yapay zekalar arasında benzerlik gösterdiği kadar farklılık da gösterebiliyor. Amacımız, paylaştığımız bilgilerle sadece Midjourney kullanımında değil, tüm yapay zekalara verdiğiniz prompt’ların iyileşmesinde katkı sağlamak.
 
-[Midjourney Resmi Dokümantasyonu](https://docs.midjourney.com/), Midjourney kullanımına dair tüm kuralları içeriyor. Burada bunları sadeleştirip aşamalandırdık.
+[Midjourney Resmi Dokümantasyonu](https://docs.midjourney.com/), Midjourney kullanımına dair tüm kuralları içeriyor. Burada bunları sadeleştirip aşamalandırdık. Bu rehberi güncelledikçe Midjourney dokümantasyonundan Türkçe çevirilerini eklediğimiz kadar kendi tavsiyelerimizi de çeşitlendireceğiz.
 
-Dil Engelini Aşmak
+## Dil Engelini Aşmak
+
 Yapay zekaların çoğunluğu kendilerine Türkçe verilen prompt’ları anlamakta pek güçlük çekmeyip, çoğu zaman da zorlanmadan Türkçe cevap verebilmektedirler. ChatGPT, Midjourney gibi en sık kullanılan yapay zekalar her ne kadar bu koşulları karşılayabilseler de kavrayışlarının eksik, Türkçelerinin de hantal ve gündelik konuşma dilinden uzak olduğunu görüyoruz. Beslendiği kaynakların ağırlığı Türkçe olmayan her yapay zeka, aynı sorunu yaşayacaktır.
 
 Midjourney Türkçe promptları pekala kabul eder, çoğunlukla da ne kast edildiğini aşağı yukarı doğru tahmin etmiş olur. Ancak hem birçok kelimeyi doğru anlayamaz, hem de kavrayış eksikliğini önyargılı davranarak telafi etmeye çalışır. İngilizce her kelimeyi anladığı için bir kavrayış eksikliği yaşamaz. Bu yüzden de bir prompt yeteri kadar detaylıysa, asla özellikle İngiliz ve Amerikan kültüründen beslenmez. Gelgelelim, Midjourney kendisine verilen her Türkçe kelimeyi anlayamadığı, ve kendisine Türkçe, Türkiye hakkında verilen örnekler eksik kaldığı için çok basit bir prompt’ta bile sorun çıkartabiliyor. Sizin için birkaç örnek hazırladık.
 
-Prompt: Çay içen yaşlı kadın, balkon, apartman, gökyüzü, detaylı, gerçekçi, fotoğrafik
+#### Prompt: Çay içen yaşlı kadın, balkon, apartman, gökyüzü, detaylı, gerçekçi, fotoğrafik
 
+<p align="left">
+  <img src="/Görseller/dil-engelini-asmak-1.png" alt="Alt text" width="350">
+</p>
 
-Prompt: Old woman drinking tea, balcony, apartment, sky, detailed, realistic, photographic
+#### Prompt: Old woman drinking tea, balcony, apartment, sky, detailed, realistic, photographic
+
+<p align="left">
+  <img src="/Görseller/dil-engelini-asmak-2.png" alt="Alt text" width="350">
+</p>
 
 
 Burada dikkat çeken iki unsur var. Birincisi, Türkçe verilen prompt’ta özellikle “yaşlı” dememize rağmen hiç yaşlı bir kadın görmüyor olmamız. Oysa ki İngilizce halinde dört denemede de yaşlı bir kadın olduğunu görüyoruz. İkinci unsur ise, ki duruma göre bu faydalı dahi olacak bir özelliktir, Türkçe verilen prompt’lara Midjourney’nin özellikle Türkiye’den esinlenerek bir estetik kurgulamasıdır. Soldaki fotoğrafta bulunan evler Türkiye’yi anımsatıyor, öyle ki bir tanesinde İstanbul Boğazı’nı görmek bile mümkün.
 
-Prompt: Modern iş adamı, sokaklar, kalabalıklar
+#### Prompt: Modern iş adamı, sokaklar, kalabalıklar
 
+<p align="left">
+  <img src="/Görseller/dil-engelini-asmak-3.png" alt="Alt text" width="350">
+</p>
 
-Prompt: Modern businessman, streets, crowds
+#### Prompt: Modern businessman, streets, crowds
 
+<p align="left">
+  <img src="/Görseller/dil-engelini-asmak-4.png" alt="Alt text" width="350">
+</p>
 
 Türkçe halinde bir “iş adamı”nı bile kavrayamadı, bunun yerine sokaklara odaklandı ve serbest bir çağrışımda bulunup kasaba evleri çizdi. Buradaki bir istisna, sol üstte yer alan ve göl, dağlar, tekne gibi prompt’tan alakasız nesneler içeren deneme. Midjourney, sanki bir film ya da albüm kapağı tasarlar gibi bir başlık atmaya bile çalışmış. Bu, İngilizce dışında bir dil kullanırken olağandışı bir olay değil. Biraz daha incelersek:
 
-Prompt: kravatlı adam, sokaklar, kalabalık
+#### Prompt: kravatlı adam, sokaklar, kalabalık
 
+<p align="left">
+  <img src="/Görseller/dil-engelini-asmak-5.png" alt="Alt text" width="350">
+</p>
 
-Prompt: modern şirket çalışanı, sokaklar, kalabalık
+#### Prompt: modern şirket çalışanı, sokaklar, kalabalık
 
+<p align="left">
+  <img src="/Görseller/dil-engelini-asmak-6.png" alt="Alt text" width="350">
+</p>
 
 İstediğimiz sonuçtan giderek uzaklaşıyoruz. Midjourney de kavrayışının el vermediği noktalarda giderek emin olduğu şeyler üzerine yoğunlaşıp, prompt’un geneline karşı tepkisiz hale geliyor. Sol yukarıdaki prompt için sadece ikisinde bir “adam” çiziyor, bunlardan birini ucundan “Türk” olarak yorumluyor. Hepsinin altında (muhtemelen Midjourney’e verilen örneklerin çoğunluğunu oluşturan) posterlerden, albüm kapaklarından, reklamlardan esinlenilmiş başlık niteliğinde yazılar görülüyor. Prompt’u biraz daha detaylandırdığımızda işler çığırından çıkıyor:
 
-Prompt: Sahil kasabası, festival, akdeniz, açık hava, günbatımı, realistik, detaylı, fotorealistik, 35mm lens — ar 3:2 — chaos 65
+#### Prompt: Sahil kasabası, festival, akdeniz, açık hava, günbatımı, realistik, detaylı, fotorealistik, 35mm lens — ar 3:2 — chaos 65
 
+<p align="left">
+  <img src="/Görseller/dil-engelini-asmak-7.png" alt="Alt text" width="350">
+</p>
 
-Prompt: beach town, festival, Mediterranean, clear sky, sunset, realistic, detailed, photorealistic, 35mm lens — ar 3:2 — chaos 65
+#### Prompt: beach town, festival, Mediterranean, clear sky, sunset, realistic, detailed, photorealistic, 35mm lens — ar 3:2 — chaos 65
 
+<p align="left">
+  <img src="/Görseller/dil-engelini-asmak-8.png" alt="Alt text" width="350">
+</p>
 
 Eğer prompt’ları istediğimiz biçimde İngilizce’de düşünmekte zorlanıyorsak, DeepL gibi bir tercüman kullanarak istediklerimizi Midjourney’e aktarabiliriz. Bu rehberde aktarmaya çalıştığımız prompt yazım mantığına uyulduğu takdirde, Midjourney kendisine veirlen Türkçe’den çevrilmiş İngilizce prompt’ları yorumlamakta güçlük çekmeyecektir.
 
-<< Bu işaretler >> arasında verilen kelimeleri yazarken << >> işaretlerini kaldırmayı unutmayın.
 
-/imagine
-Midjourney’de her prompt << /imagine >> yazılarak başlar. Discord, bunu yazıp bir boşluk bıraktığınız anda bunu şöyle tamamlar:
+## Başlangıç
+
+
+### /imagine
+
+Midjourney’de her prompt ``` /imagine ``` yazılarak başlar. Discord, bunu yazıp bir boşluk bıraktığınız anda bunu şöyle tamamlar:
 
 
 “Prompt” kelimesinin içinde bulunduğu kutucuğa yazdığımız her şey, Midjourney tarafından prompt olarak kabul edilir ve yorumlamaya dahil olur. Süreç şöyle özetlenebilir:
 
-<< /imagine >> yazılır ve boşluk tuşuna basılır. Bir kutucuk oluşur.
-İstenilen prompt yazılır: Örneğin: << Dogs running by the beach, ocean, ships >> (“Kumsalda, okyanusta, gemilerde koşan köpekler”)
+``` /imagine ``` yazılır ve boşluk tuşuna basılır. Bir kutucuk oluşur.
+İstenilen prompt yazılır: Örneğin: ``` Dogs running by the beach, ocean, ships (“Kumsalda, okyanusta, gemilerde koşan köpekler”) ```
 Enter’a basılır.
-/info
-<< /fast >> ve << /relax>> yazarak kullanım modunu değiştirebilir, << /info >> ile de kullanım süreniz gibi hesap detaylarına ulaşabilirsiniz.
+
+### /info
+
+``` /fast ``` ve ``` /relax ``` yazarak kullanım modunu değiştirebilir, ``` /info ``` ile de kullanım süreniz gibi hesap detaylarına ulaşabilirsiniz.
 
 Eğer “fast” (hızlı) modu kullanıyorsanız, Midjourney prompt’a vereceği cevabı en fazla 60 saniye içerisinde oluşturur. Şayet “relax” (rahat) modu kullanıyorsanız, bu Midjourney yoğunluğuna göre daha uzun sürebilir.
 
-Arayüz
+## Arayüz
+
 Midjourney, kendisine verdiğimiz her prompt için dört farklı görsel oluşturur. Bize cevap verdiğinde cevabının şöyle bir formatı olacaktır:
 
 Prompt: Exploring the deep space, Kandinsky style painting, black hole, photon beams, relativity — v 1 ( “Uzayın derinliklerini keşfetmek, Kandinsky tarzı resim, kara delik, foton ışınları, izafiyet — v 1” )
